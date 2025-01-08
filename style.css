@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/14/02/school-background-with-lots-study-supplies-vector-26311402.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quiz_container {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 300px;
+    width: 700px;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+
+}
+
+#start {
+    padding: 10px 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border: none;
+    background-color: maroon;
+    color: #fff;
+    cursor: pointer;
+}
+
+#quiz_container button{
+    width: 32%;
+    height: 8vh;
+    margin: 10px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 4px ;
+    align-content: center;
+   
+}
+
+
+#options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#options p{
+    background-color: #fff;
+    cursor: pointer;
+}
+#ques{
+    margin: 30px 0px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#btn{
+    position: absolute;
+    left: 440px;
+    top: 200px;
+}
+
+
+#timer{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    right: 40px;
+    top: 20px;
+    align-content: center;
+}
